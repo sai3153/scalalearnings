@@ -75,5 +75,24 @@ object Recusrion extends App{
 
   println(s"the fibonacci tr ::: ${fibonacci_tr(8,2,1,1)}")
 
+  /*call by name vs cllaby value
+  * call by value the parameter passed is evaluated only once
+  * in call by value the parameter is evaluated every time the function is called
+  * */
+
+  def callbyvalue(n:Int):Int={
+    n
+  }
+  def callbyname(x: => Long):Long={
+    x
+    callbyname(x)
+  }
+
+  //println(callbyname(System.nanoTime()))
+  //println(callbyvalue(1))
+
+  def infinite():Int=1+infinite()
+  def callbyname(x:Int,y: => Int)=println(x)
+  println(callbyname(1,infinite()))
 }
 
