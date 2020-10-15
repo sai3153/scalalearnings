@@ -42,6 +42,38 @@ object Recusrion extends App{
   }
   println(string_concat("chaitanya",5,""))
 
+  @tailrec
+  def Isprime_tc(number:Int,storedvalue:Int):Boolean={
+    if(number==1 || number==2){
+      true
+    }
+    if(storedvalue<number/2)
+      if(number%storedvalue==0)
+        {false}
+
+       else {
+        Isprime_tc(number,storedvalue+1)
+      }
+    else{
+      true
+    }
+  }
+
+  println(s"this is isprime in tail recursion ${Isprime_tc(400017,2)}")
+
+  /*the below tail recursion is for fibonacci series */
+
+ @tailrec
+  def fibonacci_tr(number:Int,iterator:Int,before_last:Int,last:Int):Int={
+    if(number<=2) 1
+    if(iterator<number){
+      fibonacci_tr(number,iterator+1,last,last+before_last)
+    }
+    else last
+
+  }
+
+  println(s"the fibonacci tr ::: ${fibonacci_tr(8,2,1,1)}")
 
 }
 
