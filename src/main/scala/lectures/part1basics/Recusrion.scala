@@ -3,6 +3,7 @@ package lectures.part1basics
 import scala.annotation.tailrec
 
 /*this recursion is limited as it creates a stack overflow eror for heavy load */
+
 object Recusrion extends App{
 
   def factorial(number:Int):BigInt={
@@ -16,6 +17,7 @@ object Recusrion extends App{
   }
 
   //println(factorial(2000))
+
 
   /*the below is trying to use tail recursion */
   @tailrec
@@ -90,6 +92,9 @@ object Recusrion extends App{
 
   //println(callbyname(System.nanoTime()))
   //println(callbyvalue(1))
+
+  /*example of call by name ->even when its an infinaite loop it does not get evaluated as we are not using it in the output
+  * else for call  by value its a infinite loop occurence as it gets evaluated */
 
   def infinite():Int=1+infinite()
   def callbyname(x:Int,y: => Int)=println(x)
