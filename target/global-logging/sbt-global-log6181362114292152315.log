@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(--addPluginSbtFile=C:\Users\PVSRAV~1\AppData\Local\Temp\idea1.sbt, None, None)
+[debug] > Exec(addPluginSbtFile=C:\Users\PVSRAV~1\AppData\Local\Temp\idea1.sbt, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.0 (Oracle Corporation Java 1.8.0_211)
+[debug]       Load.loadUnit: plugins took 129.3667ms
+[debug]       Load.loadUnit: defsScala took 0.3742ms
+[debug] [Loading] Scanning directory C:\Users\pv sravani\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\pv sravani\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 34.5875 ms
+[debug]           Load.resolveProject(global-plugins) took 74.4628ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\pv sravani\.sbt\1.0\plugins, plugins: List(<none>))) took 154.7138ms
+[debug] [Loading] Done in C:\Users\pv sravani\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 187.9353ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4474ms
+[debug]     Load.loadUnit(file:/C:/Users/pv%20sravani/.sbt/1.0/plugins/, ...) took 328.4331ms
+[debug]   Load.apply: load took 3027.4726ms
+[debug]   Load.apply: resolveProjects took 12.0422ms
+[debug]   Load.apply: finalTransforms took 63.2672ms
+[debug]   Load.apply: config.delegates took 8.7569ms
+[debug]   Load.apply: Def.make(settings)... took 1277.1341ms
+[debug]   Load.apply: structureIndex took 159.2519ms
+[debug]   Load.apply: mkStreams took 2.4104ms
+[info] loading global plugins from C:\Users\pv sravani\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7394.5303ms
+[debug]           Load.loadUnit: plugins took 69.0623ms
+[debug]           Load.loadUnit: defsScala took 0.0064ms
+[debug] [Loading] Scanning directory C:\Users\pv sravani\IdeaProjects\rock-the-scala-course\project
+[debug]             Load.loadUnit: mkEval took 13.3811ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\pv sravani\IdeaProjects\rock-the-scala-course\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.1781 ms
+[info] loading settings for project rock-the-scala-course-build from idea1.sbt ...
+[debug]               Load.resolveProject(rock-the-scala-course-build) took 5.114ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id rock-the-scala-course-build, base: C:\Users\pv sravani\IdeaProjects\rock-the-scala-course\project, plugins: List(<none>))) took 9.1677ms
+[debug] [Loading] Done in C:\Users\pv sravani\IdeaProjects\rock-the-scala-course\project, returning: (rock-the-scala-course-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3393.5457ms
+[debug]           Load.loadUnit: cleanEvalClasses took 9.4706ms
+[debug]         Load.loadUnit(file:/C:/Users/pv%20sravani/IdeaProjects/rock-the-scala-course/project/, ...) took 3473.5665ms
+[debug]       Load.apply: load took 3475.7492ms
+[debug]       Load.apply: resolveProjects took 0.1798ms
+[debug]       Load.apply: finalTransforms took 20.4096ms
+[debug]       Load.apply: config.delegates took 0.6378ms
+[debug]       Load.apply: Def.make(settings)... took 110.9951ms
+[debug]       Load.apply: structureIndex took 48.4638ms
+[debug]       Load.apply: mkStreams took 0.0036ms
+[info] loading project definition from C:\Users\pv sravani\IdeaProjects\rock-the-scala-course\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 7032.233ms
+[debug]     Load.loadUnit: defsScala took 0.004ms
+[debug] [Loading] Scanning directory C:\Users\pv sravani\IdeaProjects\rock-the-scala-course
+[debug]       Load.loadUnit: mkEval took 0.5939ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\pv sravani\IdeaProjects\rock-the-scala-course, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 4.2168 ms
+[info] loading settings for project rock-the-scala-course from build.sbt ...
+[debug]         Load.resolveProject(rock-the-scala-course) took 47.9992ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id rock-the-scala-course, base: C:\Users\pv sravani\IdeaProjects\rock-the-scala-course, plugins: List(<none>))) took 54.5504ms
+[debug] [Loading] Done in C:\Users\pv sravani\IdeaProjects\rock-the-scala-course, returning: (rock-the-scala-course)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1379.3611ms
+[debug]     Load.loadUnit: cleanEvalClasses took 18.279ms
+[debug]   Load.loadUnit(file:/C:/Users/pv%20sravani/IdeaProjects/rock-the-scala-course/, ...) took 8430.6353ms
+[debug] Load.apply: load took 8432.5514ms
+[debug] Load.apply: resolveProjects took 0.159ms
+[debug] Load.apply: finalTransforms took 43.6807ms
+[debug] Load.apply: config.delegates took 0.3513ms
+[debug] Load.apply: Def.make(settings)... took 153.009ms
+[debug] Load.apply: structureIndex took 28.2887ms
+[debug] Load.apply: mkStreams took 0.0036ms
+[info] set current project to rock-the-scala-course (in build file:/C:/Users/pv%20sravani/IdeaProjects/rock-the-scala-course/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 51923 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 51923, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to rock-the-scala-course (in build file:/C:/Users/pv%20sravani/IdeaProjects/rock-the-scala-course/)
+[debug] > Exec(idea-shell, None, None)
