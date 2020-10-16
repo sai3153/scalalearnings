@@ -98,6 +98,10 @@ object Recusrion extends App{
 
   def infinite():Int=1+infinite()
   def callbyname(x:Int,y: => Int)=println(x)
-  println(callbyname(1,infinite()))
+  //println(callbyname(1,infinite()))
+
+  val list:List[String]=List("a","b","c")
+  println(list.isInstanceOf[Seq[String]])
+
 }
 
