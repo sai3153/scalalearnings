@@ -103,5 +103,15 @@ object Recusrion extends App{
   val list:List[String]=List("a","b","c")
   println(list.isInstanceOf[Seq[String]])
 
+  val a ="chaitanya"
+  println(a.reverse)
+
+  /*string interpolators s and f and raw */
+
+  val str="chaitanya"
+  println(s"i am $str")
+  val num=122.0f
+  println(f"$num%2.3f")
+
 }
 
