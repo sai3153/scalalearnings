@@ -12,9 +12,20 @@ object Inheritance extends App {
   val lion:AllAnimalsArenotPets=new lion
   println(lion.Isitpet("biggboy"))
   //println(lion.note)
+  val animallist:covarlist[Animalsss]=new covarlist[dog]
 
 }
 
+class covarlist[+A]
+class Animalsss{
+
+}
+
+class dog extends Animalsss{
+
+}
+
+class cat extends Animalsss
 
 
  sealed  class Animals {
