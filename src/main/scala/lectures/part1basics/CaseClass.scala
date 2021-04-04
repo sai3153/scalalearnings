@@ -9,11 +9,15 @@ object CaseClass extends App{
 
  /*they automatically generate equals and hashcode methods ,
  they implement companion objects where new can be avoided as apply method is implemented */
+  class students(val name:String,val age:Int) {
 
-  case class Person(name:String,dob:Int)
-  val p=new Person("jim",1996)
-  val p2=new Person("chai",25)
+ }
+  case class Person(  name:String,dob:Int)
+  val p= Person("jim",25)
+  val p2=new Person("jim",25)
   println(p)
+  val x=new students("chaitu",56)
+  x.age
   println(p.equals(p2))
 
 }
