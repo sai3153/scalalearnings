@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da55c236-380d-4f32-956e-b76fed0119e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/excercises/linkedList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/HigherOrderFunctions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/MapFlatMapForcomprehension.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/func.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/ntimes.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/absatrcat.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/TuplesAndMaps.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/learnOptions.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/CaseClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/CaseClass.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/Exceptions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/Exceptions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/MapFlatMapForcomprehension.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/MapFlatMapForcomprehension.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/func.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/func.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,37 +29,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/func.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/HigherOrderFunctions.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/ntimes.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/MapFlatMapForcomprehension.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="425">
+              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/TuplesAndMaps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="108" lean-forward="true" selection-start-line="17" selection-start-column="108" selection-end-line="17" selection-end-column="108" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/MapFlatMapForcomprehension.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/learnOptions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+            <state relative-caret-position="321">
+              <caret line="25" column="79" lean-forward="true" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -155,10 +151,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/lectures/part1basics/CaseClass.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lectures/part1basics/Exceptions.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lectures/part1basics/absatrcat.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/func.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/HigherOrderFunctions.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/ntimes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/func.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/MapFlatMapForcomprehension.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/TuplesAndMaps.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/learnOptions.scala" />
       </list>
     </option>
   </component>
@@ -173,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,6 +217,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,33 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapFlatMapForcomprehension">
-    <configuration name="CaseClass" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.CaseClass" />
-      <module name="rock-the-scala-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part1basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HigherOrderFunctions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.functionalprogramming.HigherOrderFunctions" />
-      <module name="rock-the-scala-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.functionalprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.learnOptions">
     <configuration name="MapFlatMapForcomprehension" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.functionalprogramming.MapFlatMapForcomprehension" />
       <module name="rock-the-scala-course" />
@@ -280,8 +252,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TuplesAndMaps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.functionalprogramming.TuplesAndMaps" />
+      <module name="rock-the-scala-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.functionalprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="func" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.functionalprogramming.func" />
+      <module name="rock-the-scala-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.functionalprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="learnOptions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.functionalprogramming.learnOptions" />
       <module name="rock-the-scala-course" />
       <extension name="coverage">
         <pattern>
@@ -316,20 +314,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CaseClass" />
       <item itemvalue="Application.func" />
-      <item itemvalue="sbt Task.Firstclass" />
-      <item itemvalue="Application.HigherOrderFunctions" />
       <item itemvalue="Application.ntimes" />
       <item itemvalue="Application.MapFlatMapForcomprehension" />
+      <item itemvalue="Application.TuplesAndMaps" />
+      <item itemvalue="sbt Task.Firstclass" />
+      <item itemvalue="Application.learnOptions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.learnOptions" />
+        <item itemvalue="Application.TuplesAndMaps" />
         <item itemvalue="Application.MapFlatMapForcomprehension" />
-        <item itemvalue="Application.ntimes" />
-        <item itemvalue="Application.HigherOrderFunctions" />
         <item itemvalue="Application.func" />
-        <item itemvalue="Application.CaseClass" />
+        <item itemvalue="Application.ntimes" />
       </list>
     </recent_temporary>
   </component>
@@ -453,14 +451,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615736668079</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="started oobasics">
+      <created>1617556443403</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617556443403</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31879196" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -574,6 +579,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/ntimes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/func.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="103" selection-start-line="53" selection-start-column="103" selection-end-line="53" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/HigherOrderFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/MapFlatMapForcomprehension.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/part1basics/Recusrion.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
@@ -616,31 +649,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/func.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/TuplesAndMaps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="289">
+          <caret line="17" column="108" lean-forward="true" selection-start-line="17" selection-start-column="108" selection-end-line="17" selection-end-column="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/HigherOrderFunctions.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/learnOptions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/ntimes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/lectures/functionalprogramming/MapFlatMapForcomprehension.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="54" lean-forward="true" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        <state relative-caret-position="321">
+          <caret line="25" column="79" lean-forward="true" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
         </state>
       </provider>
     </entry>

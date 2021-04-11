@@ -39,4 +39,17 @@ object func extends App{
   println(a(4))
 
 
+  val addition2 = new Function1[Int,Function1[Int,Int]] {
+    def apply(x:Int):Function1[Int,Int] = new Function1[Int,Int] {
+      def apply(y:Int):Int=x+y
+    }
+  }
+
+  val add3 = new Function1[Int,Function2[Int,Int,Int]] {
+    def apply(x:Int):Function2[Int,Int,Int]=new Function2[Int,Int,Int]{
+      def apply(y:Int,l:Int):Int=x+y+l
+    }
+  }
+
+ print(add3(4)(5,6)) //curried implementation of a function and also hOF (func in a func as a parametr )
 }
